@@ -8,7 +8,7 @@ prompts:
     data:
       id: AJ-E5KsoeNbvW0FFQ3nhj
       role: user
-      content: "question123: {{ question }}"
+      content: "question1234: {{ question }}"
 outputVariables:
   - id: hgpufiJ3HSFYyvtf4i3FH
     name: $text
