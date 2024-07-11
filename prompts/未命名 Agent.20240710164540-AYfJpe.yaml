@@ -1,28 +1,20 @@
-type: router
+type: prompt
 parameters:
   - id: LdI0FQvewhPvVkY8I8Wpy
     type: string
     key: question
 prompts:
-  20240711094728-hDw7lj:
-    index: 1
+  - type: message
     data:
-      type: message
-      data:
-        id: 20240711094728-hDw7lj
-        role: user
-  AJ-E5KsoeNbvW0FFQ3nhj:
-    index: 0
-    data:
-      type: message
-      data:
-        id: AJ-E5KsoeNbvW0FFQ3nhj
-        role: user
-        content: "question1: {{ question }}"
-model: gpt-4
-prompt: "{{question}}"
-routes: []
-outputVariables: []
+      id: AJ-E5KsoeNbvW0FFQ3nhj
+      role: user
+      content: "question11: {{ question }}"
+model: gpt-3.5-turbo
+prompt: "{{question}}1"
+routes: {}
+outputVariables:
+  - id: M_dzAbgcWscDUFPGBgStn
+    name: $text
 id: 20240710164540-AYfJpe
 createdAt: 2024-07-10T08:45:40.710Z
 updatedAt: 2024-07-10T08:45:40.710Z
