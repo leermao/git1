@@ -1,17 +1,48 @@
-type: prompt
+type: router
 parameters:
   - id: LdI0FQvewhPvVkY8I8Wpy
     type: string
     key: question
 prompts:
-  - type: message
+  20240711094728-hDw7lj:
+    index: 1
     data:
-      id: AJ-E5KsoeNbvW0FFQ3nhj
-      role: user
-      content: "question1: {{ question }}"
+      type: message
+      data:
+        id: 20240711094728-hDw7lj
+        role: user
+  AJ-E5KsoeNbvW0FFQ3nhj:
+    index: 0
+    data:
+      type: message
+      data:
+        id: AJ-E5KsoeNbvW0FFQ3nhj
+        role: user
+        content: "question1: {{ question }}"
+model: gpt-4
+prompt: "{{question}}"
+routes: []
 outputVariables:
-  - id: hgpufiJ3HSFYyvtf4i3FH
-    name: $text
+  - id: AkUU3t84285Bf-n-peat5
+    name: messages
+    type: array
+    element:
+      id: BvKg-qbpnYLEtEpeLf703
+      name: element
+      type: object
+      properties:
+        - id: zE3FApX8XofnsnWWqqbf5
+          name: id
+          type: string
+        - id: z6ayMQCvCxgDkHg2reimC
+          name: taskId
+          type: string
+        - id: uA_eScusRpdzYYnbU1jzN
+          name: createdAt
+          type: string
+        - id: -V7UtXWwNdRyqz_wJ7vQI
+          name: updatedAt
+          type: string
 id: 20240710164540-AYfJpe
 createdAt: 2024-07-10T08:45:40.710Z
 updatedAt: 2024-07-10T08:45:40.710Z
