@@ -22,27 +22,7 @@ prompts:
 model: gpt-4
 prompt: "{{question}}"
 routes: []
-outputVariables:
-  - id: AkUU3t84285Bf-n-peat5
-    name: messages
-    type: array
-    element:
-      id: BvKg-qbpnYLEtEpeLf703
-      name: element
-      type: object
-      properties:
-        - id: zE3FApX8XofnsnWWqqbf5
-          name: id
-          type: string
-        - id: z6ayMQCvCxgDkHg2reimC
-          name: taskId
-          type: string
-        - id: uA_eScusRpdzYYnbU1jzN
-          name: createdAt
-          type: string
-        - id: -V7UtXWwNdRyqz_wJ7vQI
-          name: updatedAt
-          type: string
+outputVariables: []
 id: 20240710164540-AYfJpe
 createdAt: 2024-07-10T08:45:40.710Z
 updatedAt: 2024-07-10T08:45:40.710Z
